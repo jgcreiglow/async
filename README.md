@@ -23,7 +23,8 @@ What if we got ready for our day...asynchronously?
 
 *actually.. a few ways!*
 
-### Call Backs
+### Call Backs 
+_example: https://jgcreiglow.github.io/hangman-game/_
 * a function that is passed as the last object of another function and runs when the first fucntion is complete
 * overusing call backs can result in **_call back hell_**
   * when you are just using callbacks to make functions run in order, it can make your code unreadable
@@ -52,7 +53,7 @@ wordChoice();
 
 
 ### Promises
-
+_example: https://jgcreiglow.github.io/maGIFicent/_
 * makes readable synchronous code. 
 * when writing the function, rather than running a callback within the first function, we add a promise to it! 
 * just like promises we make in real life, code based promises like `.then()` and `.catch` promise that they will wait to run until the previous function is finished. 
