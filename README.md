@@ -14,4 +14,4 @@ But sometimes, as with math, our order of operations is super important.
 
 What if we got ready for our day...asynchronously? 
 ![Gif of asynchronous day]
-(https://gph.is/2J1QcAz)
+(https://media.giphy.com/media/8L1JIDQ4yoKcOyIrXH/giphy.gif)
