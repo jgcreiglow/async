@@ -97,3 +97,10 @@ _example: https://jgcreiglow.github.io/maGIFicent/_
       };
 ```
 ### Async/Await
+_example: clone the repo and run node async.js in the command line to see a demonstration of async/await_
+* mostly, this is updated syntax on top of promises that makes our code even **more** readable! 
+* our code is still written using promises - we'll either get data or an error when our function runs.
+* the updated syntax clarifies our intentions. we are **awaiting** results before we log a **response** 
+* another cool function of Async/Await is `promise.all()`
+  * this will only run when all of the queries are finished. Without `promise.all()` we would be running a very long series of `.then()` promises.
+  * this allows us to write shorter, clear code that can perform a series of complicated tasks and return the data at the same time so that a web page full of data built on complicated queries will load seamlessly. 
