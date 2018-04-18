@@ -97,7 +97,7 @@ _example: https://jgcreiglow.github.io/maGIFicent/_
       };
 ```
 ### Async/Await
-_example: clone the repo and run node async.js in the command line to see a demonstration of async/await_
+_example: clone the repo and run `npm install`, then `node async.js` in the command line to see a demonstration of async/await_
 * mostly, this is updated syntax on top of promises that makes our code even **more** readable! 
 * our code is still written using promises - we'll either get data or an error when our function runs.
 * the updated syntax clarifies our intentions. we are **awaiting** results before we log a **response** 
